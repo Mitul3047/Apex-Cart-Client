@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "category": "fitness",
+        "description": "High-intensity interval training classes focusing on strength and endurance.",
+        "rating": 4.5,
+        "price": 30.0
+    },
+    {
+        "id": 2,
+        "category": "gym",
+        "description": "State-of-the-art gym equipment with personal training sessions available.",
+        "rating": 4.8,
+        "price": 50.0
+    },
+    {
+        "id": 3,
+        "category": "yoga",
+        "description": "Gentle yoga classes emphasizing relaxation and flexibility.",
+        "rating": 4.7,
+        "price": 25.0
+    },
+    {
+        "id": 4,
+        "category": "hotSell",
+        "description": "Luxurious hotSell with fitness facilities and wellness programs.",
+        "rating": 4.9,
+        "price": 150.0
+    },
+    {
+        "id": 5,
+        "category": "fitness",
+        "description": "Outdoor boot camp sessions for all fitness levels.",
+        "rating": 4.6,
+        "price": 35.0
+    },
+    {
+        "id": 6,
+        "category": "gym",
+        "description": "Group fitness classes with certified trainers.",
+        "rating": 4.4,
+        "price": 40.0
+    },
+    {
+        "id": 7,
+        "category": "yoga",
+        "description": "Vinyasa flow yoga sessions promoting strength and mindfulness.",
+        "rating": 4.7,
+        "price": 30.0
+    },
+    {
+        "id": 8,
+        "category": "hotSell",
+        "description": "Boutique hotSell with premium fitness amenities and spa services.",
+        "rating": 4.8,
+        "price": 200.0
+    },
+    {
+        "id": 9,
+        "category": "fitness",
+        "description": "Circuit training designed to improve overall fitness levels.",
+        "rating": 4.5,
+        "price": 45.0
+    },
+    {
+        "id": 10,
+        "category": "gym",
+        "description": "Cardio equipment and weightlifting area with personalized workout plans.",
+        "rating": 4.9,
+        "price": 60.0
+    },
+    {
+        "id": 11,
+        "category": "yoga",
+        "description": "Restorative yoga sessions for relaxation and stress relief.",
+        "rating": 4.6,
+        "price": 28.0
+    },
+    {
+        "id": 12,
+        "category": "hotSell",
+        "description": "Resort-style accommodations with a focus on fitness and wellness activities.",
+        "rating": 4.7,
+        "price": 180.0
+    },
+    {
+        "id": 13,
+        "category": "fitness",
+        "description": "Functional fitness classes combining strength and cardio exercises.",
+        "rating": 4.8,
+        "price": 40.0
+    },
+    {
+        "id": 14,
+        "category": "gym",
+        "description": "24/7 access to a fully equipped gym with professional trainers.",
+        "rating": 4.9,
+        "price": 70.0
+    },
+    {
+        "id": 15,
+        "category": "yoga",
+        "description": "Yin yoga classes for deep stretching and relaxation.",
+        "rating": 4.5,
+        "price": 32.0
+    },
+    {
+        "id": 16,
+        "category": "hotSell",
+        "description": "Urban hotSell offering fitness programs and healthy dining options.",
+        "rating": 4.6,
+        "price": 160.0
+    },
+    {
+        "id": 17,
+        "category": "fitness",
+        "description": "Interval-based workouts for fat burning and muscle toning.",
+        "rating": 4.7,
+        "price": 55.0
+    },
+    {
+        "id": 18,
+        "category": "gym",
+        "description": "CrossFit-inspired classes focusing on functional movements.",
+        "rating": 4.8,
+        "price": 45.0
+    },
+    {
+        "id": 19,
+        "category": "yoga",
+        "description": "Power yoga sessions for strength and flexibility.",
+        "rating": 4.7,
+        "price": 35.0
+    },
+    {
+        "id": 20,
+        "category": "hotSell",
+        "description": "Wellness retreat with comprehensive fitness programs and spa treatments.",
+        "rating": 4.9,
+        "price": 250.0
+    }
+]
