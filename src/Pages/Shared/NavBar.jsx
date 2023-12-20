@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-
-
+import { FaEnvelope, FaSearch, FaUser } from "react-icons/fa";
+import { FaCartShopping } from "react-icons/fa6";
 const NavBar = () => {
     const navOptions = <>
         <Link to={'/'}><li className="mx-4">Home</li></Link>
@@ -11,7 +11,7 @@ const NavBar = () => {
         <Link to={'/'}><li className="mx-4">Blog</li></Link>
     </>
     return (
-        <div className="navbar justify-between bg-black">
+        <div className="navbar justify-between text-white text-lg py-4 bg-black">
             <div className="">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -24,16 +24,17 @@ const NavBar = () => {
                 <a className="btn btn-ghost text-xl">Apex Cart</a>
                 <div className=" hidden lg:flex flex-grow">
                     <ul className="menu menu-horizontal px-1">
-                    {navOptions}
+                        {navOptions}
                     </ul>
                 </div>
             </div>
 
-            <div className="">
-                <a className="btn">Button</a>
-                <a className="btn">Button</a>
-                <a className="btn">Button</a>
-                <a className="btn">Button</a>
+            <div className="space-x-6 pr-6">
+                <FaEnvelope />
+                <FaUser />
+                <FaSearch />
+                <FaCartShopping/>
+
             </div>
         </div>
     );

@@ -3,7 +3,7 @@
 const Footer = () => {
     return (
         <footer>
-            <div className="footer  p-10 bg-black text-base-content">
+            <div className="footer  p-10 bg-black text-white">
                 <nav>
                     <header className="footer-title">Services</header>
                     <a className="link link-hover">Branding</a>
@@ -28,7 +28,7 @@ const Footer = () => {
                 </nav>
 
             </div>
-            <div className="footer footer-center p-4 bg-black text-base-content">
+            <div className="footer footer-center p-4 bg-black text-white">
                 <aside>
                     <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
                 </aside>

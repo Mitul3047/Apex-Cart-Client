@@ -3,6 +3,7 @@ import BestForYou from "./BestForYou";
 import BestProductes from "./BestProductes";
 import HotSell from "./HotSell/HotSell";
 import VideoAd from "./VideoAd";
+import Videos from "./videos";
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
            <BestProductes></BestProductes>
            <VideoAd></VideoAd>
            <BestForYou></BestForYou>
+           <Videos></Videos>
         </div>
     );
 };
