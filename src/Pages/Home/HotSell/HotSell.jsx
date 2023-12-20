@@ -13,6 +13,7 @@ import 'swiper/css/pagination';
 
 // import required modules
 import { Pagination } from 'swiper/modules';
+import SectionTitle from '../../../componenets/SectionTitle/SectionTitle';
 const HotSell = () => {
     const [producets] = useProductes();
     console.log(producets);
@@ -20,7 +21,8 @@ const HotSell = () => {
     console.log(hotSell);
     const exerciceFitness = producets.filter(item => item.category === 'gym');
     return (
-        <div className='text-center '>
+        <div className='text-center w-[90%] mx-auto'>
+            <SectionTitle heading={'Hot selling products'}></SectionTitle>
             <Tabs >
                 <TabList>
                     <Tab>HOT SALE</Tab>
@@ -42,7 +44,7 @@ const HotSell = () => {
                                 <div key={item.id}>
                                     <SwiperSlide>
                                         <div>
-                                            <div className="card card-compact max-w-xs bg-base-100 shadow-xl rounded-md">
+                                            <div className="card card-compact max-w-xs bg-base-100 mt-8 shadow-xl rounded-md">
                                                 <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
                                                 <div className="card-body">
                                                     <h2 className="card-title">{item.title}</h2>
@@ -76,7 +78,7 @@ const HotSell = () => {
                                 <div key={item.id}>
                                     <SwiperSlide>
                                         <div>
-                                            <div className="card card-compact max-w-xs bg-base-100 shadow-xl rounded-md">
+                                            <div className="card card-compact max-w-xs bg-base-100 mt-8 shadow-xl rounded-md">
                                                 <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
                                                 <div className="card-body">
                                                     <h2 className="card-title">{item.title}</h2>

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { FaEnvelope, FaSearch, FaUser } from "react-icons/fa";
 import { FaCartShopping } from "react-icons/fa6";
+import logo from '../../assets/apex_cart.png'
 const NavBar = () => {
     const navOptions = <>
         <Link to={'/'}><li className="mx-4">Home</li></Link>
@@ -21,7 +22,7 @@ const NavBar = () => {
                         {navOptions}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">Apex Cart</a>
+                <a className="btn btn-ghost text-xl"><img className="w-36" src={logo} alt="" /></a>
                 <div className=" hidden lg:flex flex-grow">
                     <ul className="menu menu-horizontal px-1">
                         {navOptions}

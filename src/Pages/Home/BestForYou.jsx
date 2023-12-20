@@ -1,6 +1,7 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import useProductes from '../../hooks/useProductes';
+import SectionTitle from '../../componenets/SectionTitle/SectionTitle';
 
 
 
@@ -17,7 +18,8 @@ const BestForYou = () => {
     const personalCare = producets.filter(item => item.category === 'personal_care');
     const dumbbellsBarbells = producets.filter(item => item.category === 'dumbbells_barbells');
     return (
-        <div className='text-center '>
+        <div className='text-center w-[90%] mx-auto'>
+            <SectionTitle heading={'best for you'}></SectionTitle>
             <Tabs >
                 <TabList>
                     <Tab>Health & Beauty</Tab>
@@ -32,7 +34,7 @@ const BestForYou = () => {
                         {
                             healthBeauty.map(item => (
                                 <div key={item.id}>
-                                    <div className="card card-compact max-w-xs bg-base-100 shadow-xl rounded-md">
+                                    <div className="card card-compact mt-8 max-w-xs bg-base-100 shadow-xl rounded-md">
                                         <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
                                         <div className="card-body">
                                             <h2 className="card-title">{item.title}</h2>
@@ -53,7 +55,7 @@ const BestForYou = () => {
                         {
                             yogaProducts.map(item => (
                                 <div key={item.id}>
-                                    <div className="card card-compact max-w-xs bg-base-100 shadow-xl rounded-md">
+                                    <div className="card card-compact mt-8 max-w-xs bg-base-100 shadow-xl rounded-md">
                                         <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
                                         <div className="card-body">
                                             <h2 className="card-title">{item.title}</h2>

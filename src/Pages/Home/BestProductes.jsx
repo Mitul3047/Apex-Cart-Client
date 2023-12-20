@@ -7,9 +7,13 @@ import img3 from '../../assets/home/03.png';
 import img4 from '../../assets/home/04.jpg';
 import img5 from '../../assets/home/05.png';
 import img6 from '../../assets/home/06.png';
+import SectionTitle from '../../componenets/SectionTitle/SectionTitle';
 const BestProductes = () => {
     return (
-        <div className='flex flex-col lg:flex-row gap-4 justify-center items-center h-screen'>
+     <div className=' w-[90%] mx-auto  h-screen'>
+         <SectionTitle heading={'Our best product'}></SectionTitle>
+           <div className='flex flex-col lg:flex-row gap-4 justify-center items-center'>
+           
             <div className=' lg:w-1/2'>
                 <Carousel className='text-center'>
                     <div>
@@ -44,6 +48,7 @@ const BestProductes = () => {
                 <button className='w-full btn bg-violet-600 text-white'>Buy With ShopPay</button>
             </div>
         </div>
+     </div>
     );
 };
 
