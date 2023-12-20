@@ -138,5 +138,76 @@
         "description": "Wellness retreat with comprehensive fitness programs and spa treatments.",
         "rating": 4.9,
         "price": 250.0
+    },
+    {
+        "id": 46,
+        "category": "health_beauty",
+        "description": "Organic skincare products for a natural glow.",
+        "rating": 4.3,
+        "price": 20.0
+    },
+    {
+        "id": 47,
+        "category": "yoga_products",
+        "description": "Premium yoga mats for superior comfort and support.",
+        "rating": 4.9,
+        "price": 50.0
+    },
+    {
+        "id": 48,
+        "category": "ans_trainer",
+        "description": "Virtual assistant for personalized fitness coaching and tracking.",
+        "rating": 4.7,
+        "price": 80.0
+    },
+    {
+        "id": 49,
+        "category": "personal_care",
+        "description": "Self-care products promoting relaxation and well-being.",
+        "rating": 4.6,
+        "price": 25.0
+    },
+    {
+        "id": 50,
+        "category": "dumbbells_barbells",
+        "description": "Adjustable dumbbells for versatile strength training workouts.",
+        "rating": 4.8,
+        "price": 120.0
+    },
+
+    {
+        "id": 94,
+        "category": "health_beauty",
+        "description": "Aromatherapy oils for a calming and rejuvenating experience.",
+        "rating": 4.5,
+        "price": 15.0
+    },
+    {
+        "id": 95,
+        "category": "yoga_products",
+        "description": "Yoga blocks for enhanced flexibility and support during poses.",
+        "rating": 4.7,
+        "price": 18.0
+    },
+    {
+        "id": 96,
+        "category": "ans_trainer",
+        "description": "Smart fitness watch with AI-driven workout recommendations.",
+        "rating": 4.9,
+        "price": 150.0
+    },
+    {
+        "id": 97,
+        "category": "personal_care",
+        "description": "Grooming kit for comprehensive personal care routines.",
+        "rating": 4.6,
+        "price": 30.0
+    },
+    {
+        "id": 98,
+        "category": "dumbbells_barbells",
+        "description": "Barbell set for Olympic weightlifting and strength training.",
+        "rating": 4.8,
+        "price": 200.0
     }
 ]

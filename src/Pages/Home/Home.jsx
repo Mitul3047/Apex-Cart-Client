@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import BestForYou from "./BestForYou";
 import BestProductes from "./BestProductes";
 import HotSell from "./HotSell/HotSell";
 import VideoAd from "./VideoAd";
@@ -11,6 +12,7 @@ const Home = () => {
            <HotSell></HotSell>
            <BestProductes></BestProductes>
            <VideoAd></VideoAd>
+           <BestForYou></BestForYou>
         </div>
     );
 };
